@@ -10,6 +10,9 @@ You've done a great job so far working on the first two sections of this landing
 
 That will be the focus of this lab. You will implement the layouts of both the `sub nav` and the `main` content on your own, from start to finish.
 
+![Dtibble Home Page Breakdown](./assets/dribble-hp-breakdown.png)
+
+
 ## Prerequisites
 
 - Introduction to Flexbox

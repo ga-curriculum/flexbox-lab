@@ -26,7 +26,7 @@ Estimated time to complete core lab exercise: tktk min
 - [Setup](./setup/README.md)
 - [Lab exercise](./exercise/README.md)
 - [Starter code](#tktk-external-repo-link) tktk - remove if no starter 
-- [Solution code](#tktk-external-repo-link) tktk - remove if no solution
+- [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-lab-solution)
 
 
 ## Internal resources

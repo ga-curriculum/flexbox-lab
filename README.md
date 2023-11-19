@@ -1,33 +1,31 @@
-# ![[Introduction to Flexbox Lab]](./assets/tktkhero-main.png)
+# ![Flexbox Lab](./assets/tktkhero-main.png)
 
-## Introduction
+## About
 
-In the **Introduction to Flexbox lesson**, we wrapped up by recreating part of a landing page to [our reference site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-reference-deployed/).
-
-![Dtibble Home Page](./assets/dribble-hp.png)
-
-You've done a great job so far working on the first two sections of this landing page here, the `nav` and the `hero` section. There's still the `sub nav` and the `main` sections to complete, but now it's time for you to practice some on your own. 
-
-That will be the focus of this lab. You will implement the layouts of both the `sub nav` and the `main` content on your own, from start to finish.
-
-![Dtibble Home Page Breakdown](./assets/dribble-hp-breakdown.png)
-
+Students utilize flexbox to add a layout to a pre-styled application in this lab. 
 
 ## Prerequisites
 
-- Introduction to Flexbox
+- Flexbox
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: tktk min
+Estimated time to complete core lab exercise: 90 min
 
-## Lab
+## Content
 
 - [Setup](./setup/README.md)
-- [Lab exercise](./exercise/README.md)
-- [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-lab-starter-code)
-- [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-lab-solution)
+- [Exercise](./exercise/README.md)
 
+## Solution code
+
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-lab-solution)
+
+## Deployed sites
+
+🌐 [Live site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)
+
+🐙 [Repository (same as solution code)](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-lab-solution)
 
 ## Internal resources
 

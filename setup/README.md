@@ -241,6 +241,6 @@ You should see something that looks like the following in your browser:
 
 tktk Hunter, add a screenshot here of the browser at this point.
 
-As you can see, all of the elements have been styled, but need to be laid out properly in flex containers in order to finalize this design. That is the work you'll carry out in the remainder of this lab. 
+As you can see, all the elements have been styled but need to be laid out properly in flex containers to finalize this design. That is the work you'll do in the remainder of this lab. 
 
-Feel free to explore the starter code, and understand the styling that has been applied to this page so far, but don't modify any of the code at this time. 
+Feel free to explore the starter code, and the styling applied to this page so far, but don't modify any of the code now. 

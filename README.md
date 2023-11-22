@@ -1,4 +1,4 @@
-# ![Flexbox Lab](./assets/tktkhero-main.png)
+# ![Flexbox Lab](./assets/hero.png)
 
 ## About
 

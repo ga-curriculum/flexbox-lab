@@ -28,7 +28,7 @@ Happy coding!
 
 Start by evaluating where you want to go in this lab. The final product you build should look similar to this reference site:
 
-![tktk Hunter, screenshot of finished app]()
+![Finished app](./assets/finished-layout.png)
 
 Here's a link to this application so you can explore it on your own:
 
@@ -50,7 +50,7 @@ This breakdown can be subjective, but the HTML structure of the page is often a 
 - The `<div id="subnav">` element corresponds to the sub-nav.
 - The `<main>` element corresponds to the main content of the page.
 
-![tktk Hunter, replace this with a breakdown of our final site instead of dribbble - should look kinda similar to this though.](./assets/site-breakdown.png)
+![Site breakdown](./assets/site-breakdown.png)
 
 Breaking a site down into distinct parts is the foundation of our work with a layout. What you'll find with flexbox is that the process is ultimately just about putting boxes (elements) inside other boxes (elements that are flexboxes). The rest of the lab will follow this breakdown, starting with the nav bar!
 
@@ -58,7 +58,7 @@ Breaking a site down into distinct parts is the foundation of our work with a la
 
 Here's the completed nav bar:
 
-![tktk Hunter, replace this with a breakdown of our final site's nav bar instead of dribbble - should look kinda similar to this though.](./assets/nav-breakdown.png)
+![Nav breakdown](./assets/nav-breakdown.png)
 
 Above is a dissection of the nav bar for the site. Looking at this we can broadly describe the items on the left side of the nav as ***destinations*** on the site and the items on the right of the nav as related to user ***actions***.
 
@@ -74,7 +74,7 @@ Use flexbox to make your nav bar look like the completed example above. Here are
 
 On to our Hero section next. Let's do the same breakdown for this that we did for our nav bar:
 
-![tktk Hunter, replace this with a breakdown of our final site's hero section instead of dribbble - should look kinda similar to this though.](./assets/hero-breakdown.png)
+![Hero breakdown](./assets/hero-breakdown.png)
 
 > ❓ What's different about how the Hero section lays out its children compared to the nav?
 
@@ -84,7 +84,7 @@ Use flexbox to make your hero section look like the completed example above. Jus
 
 Here's the sub-nav!
 
-![tktk Hunter, replace this with a breakdown of our final site's sub nav instead of dribbble - should look kinda similar to this though.](./assets/sub-nav-breakdown.png)
+![Sub-nav breakdown](./assets/sub-nav-breakdown.png)
 
 Use flexbox to get your sub-nav looking like the completed example above.
 
@@ -92,11 +92,11 @@ Use flexbox to get your sub-nav looking like the completed example above.
 
 Time for the main event! Everything has led up to this, and it's time to build the cards for the main content!
 
-![tktk Hunter, replace this with a breakdown of our final site's main content instead of dribbble - should look kinda similar to this though.](./assets/main-breakdown.png)
+![Main breakdown](./assets/main-breakdown.png)
 
 The main content is a scrolling list of cards for each piece of content, each with an image and a footer showing some details about a piece of content.
 
-![tktk Hunter, replace this with a breakdown of our final site's cards instead of dribbble - should look kinda similar to this though.](./assets/card-breakdown.png)
+![Card breakdown](./assets/card-breakdown.png)
 
 Use flexbox to get your main content looking like the completed example above. Here are some hints for you to help along the way:
 
@@ -109,6 +109,6 @@ Use flexbox to get your main content looking like the completed example above. H
 
 Your site should be complete, and your finished product should look something like this:
 
-![tktk Hunter, screenshot of finished app]()
+![Finished app](./assets/finished-layout.png)
 
 Congrats, you did it!!

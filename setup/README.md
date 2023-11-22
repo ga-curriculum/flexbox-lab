@@ -239,7 +239,7 @@ Open the `index.html` file in your browser.
 
 You should see something that looks like the following in your browser:
 
-tktk Hunter, add a screenshot here of the browser at this point.
+![Starter layout](./assets/initial-layout.png)
 
 As you can see, all the elements have been styled but need to be laid out properly in flex containers to finalize this design. That is the work you'll do in the remainder of this lab. 
 

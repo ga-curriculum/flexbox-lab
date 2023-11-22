@@ -1,4 +1,4 @@
-# ![Flexbox Lab - Release Notes](../assets/tktkhero-secondary.png)
+# ![Flexbox Lab - Release Notes](../assets/hero.png)
 
 ## Version 1.0 - Updates from legacy content
 

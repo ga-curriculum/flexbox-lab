@@ -1,4 +1,4 @@
-# ![Flexbox Lab - Instructor Guide](../assets/tktkhero-secondary.png)
+# ![Flexbox Lab - Instructor Guide](../assets/hero.png)
 
 Nothing here yet!
 

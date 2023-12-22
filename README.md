@@ -2,15 +2,19 @@
 
 ## About
 
-Students utilize flexbox to add a layout to a pre-styled application in this lab. 
+In this hands-on lab, students will have the opportunity to apply flexbox properties to layout a pre-styled web page. This lab will provide you with practical experience in using flexbox properties to create dynamic and responsive layouts, an essential skill for modern web development. 
+
+![Layout](./assets/finished-layout.png)
 
 ## Prerequisites
 
+- Intro to HTML
+- Intro to CSS
 - Flexbox
 
 ## Time to complete
 
-Estimated time to complete core lab exercise: 90 min
+Estimated time to complete core lab exercise: **90 min**
 
 ## Content
 
@@ -25,7 +29,6 @@ Estimated time to complete core lab exercise: 90 min
 
 🌐 [Live site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)
 
-🐙 [Repository (same as solution code)](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-lab-solution)
 
 ## Internal resources
 

@@ -8,42 +8,43 @@ In this lab, you'll practice using flexbox to lay out pre-styled elements on a w
 
 If you get stuck during the lab, we recommend revisiting the lesson materials first. They're designed to provide you with the information and examples that will help you complete the exercises. 
 
-Specifically, recall these helpful details from the lecture:
+**Key points from the lesson:**
 
-- Flexbox parents only directly influence their children.
-- Flexboxes may be nested inside of one another.
-- Remember the default behavior of elements versus the behavior of elements when they are inside a flexbox and how you can control that behavior. You should frequently reference [the Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to help guide you through this process.
+- Flexbox properties set on parents primarily affect their immediate children.
+- You can nest flexboxes within one another to create more complex layouts.
+- Always consider the default behavior of elements compared to their behavior when placed inside a flexbox, and understand how to control that behavior. 
+- When in doubt, consult the [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) for detailed guidance and examples to assist you in this process.
 
-It's important to note that this lab content primarily focuses on layout and appearance, ***not functionality***. For example, items that would typically be links are instead paragraph elements.
+This lab primarily covers layout and appearance, ***not functionality***. Links, for instance, are represented as paragraph elements. Additionally, when working on your layout, add flexbox declarations to existing rules where possible, but be prepared to create new CSS rules when needed.
 
-Also, as a final point, this lab gave you some starting CSS - you should add your flexbox declarations to the existing rules when possible. However, you may need to create new CSS rules to implement the desired layout occasionally.
+If you've revisited the lesson materials and are still facing challenges, don't hesitate to collaborate with your classmates.
 
-If you've revisited the materials and are still facing challenges, don't hesitate to collaborate with your classmates.
-
-Lastly, the internet is filled with resources specific to flexbox. Websites like [Google](https://www.google.com/), [MDN Web Docs on Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox), [Stack Overflow](https://stackoverflow.com/search?q=flexbox), and especially [the Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) are just a few clicks away. Use these before reaching out for help.
+Lastly, resources like [Google](https://www.google.com/), [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox), [Stack Overflow](https://stackoverflow.com/search?q=flexbox), and especially [the Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) are just a few clicks away. Use these before reaching out for help.
 
 Happy coding!
 
 ## The final design
 
-Start by evaluating where you want to go in this lab. The final product you build should look similar to this reference site:
+Let's begin by evaluating the final design. The end result should resemble the reference site shown below:
 
 ![Finished app](./assets/finished-layout.png)
 
-Here's a link to this application so you can explore it on your own:
+Here's a link to this page so you can explore it on your own:
 
 🌐 [Live site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)
 
 ## Approach
 
-When constructing an app, it can often be overwhelming and unproductive to code the layout for the entirety of it at once. Instead, it will help to translate the final design into smaller sections that can each be worked on independently of one another. There are four distinct sections of this webpage:
+When styling a full page layout, trying to code the entire page all at once can be overwhelming and counterproductive. Instead, it's sometimes more helpful to break the final design into smaller sections that can each be worked on independently of one another. 
 
-- A nav bar.
-- The hero content of the page - the main point of interaction on the page.
-- A sub-nav for filtering and sorting the main content.
-- The main content of the page.
+There are four distinct sections of this webpage:
 
-This breakdown can be subjective, but the HTML structure of the page is often a good source of truth. You'll notice these four sections correspond directly with the four children elements of `<body>` element:
+- The top nav
+- The hero content 
+- The sub-nav
+- The main content
+
+This breakdown can be subjective, but the HTML structure of the page is often a good source of guidance. You'll notice these four sections correspond directly with the four child elements of `<body>`:
 
 - The `<nav>` element corresponds to the nav bar.
 - The `<section id="hero">` element corresponds to the hero content of the page.
@@ -52,63 +53,77 @@ This breakdown can be subjective, but the HTML structure of the page is often a 
 
 ![Site breakdown](./assets/site-breakdown.png)
 
-Breaking a site down into distinct parts is the foundation of our work with a layout. What you'll find with flexbox is that the process is ultimately just about putting boxes (elements) inside other boxes (elements that are flexboxes). The rest of the lab will follow this breakdown, starting with the nav bar!
+Dividing a website into distinct sections is fundamental when working with flexbox. The process involves nesting elements within flex containers as needed. We'll begin with the Nav!
 
 ## Nav
 
-Here's the completed nav bar:
+Here's an example of the completed nav bar:
 
 ![Nav breakdown](./assets/nav-breakdown.png)
 
-Above is a dissection of the nav bar for the site. Looking at this we can broadly describe the items on the left side of the nav as ***destinations*** on the site and the items on the right of the nav as related to user ***actions***.
+Examining this, we can broadly categorize the items on the left side as ***destinations*** and the items on the right side as potential user ***actions***.
 
-> 🧠 As an aside, this is a widespread pattern across the internet that many users will instantly recognize. You can use this knowledge to improve the user experience of your own sites!
+### Step 1 : Styling the Nav
 
-Use flexbox to make your nav bar look like the completed example above. Here are some hints for you to help along the way:
+Apply flexbox properties to recreate the nav bar layout shown in the example above.
 
-- You'll turn the `<nav>`, `<div id="destinations">`, and `<div id="actions">` elements into flexboxes. Note that this means that the `<div id="destinations">` and `<div id="actions">` will simultaneously be both flex children (of the `<nav>` element) and flex parents to their children elements.
-- You'll need to research a method that could be used to create a gap between the different elements inside of the `<div id="destinations">` and `<div id="actions">`. [The Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) may be helpful for this.
-- Vertically centering the `destinations` and `actions` in the nav bar may be tricky. Don't forget to break down problems step by step. 
+Here are some hints to guide you:
 
-## Hero section
+- Convert the `<nav>`, `<div id="destinations">`, and `<div id="actions">` elements into flex containers. Keep in mind that this makes `<div id="destinations">` and `<div id="actions">` both flex children (inside `<nav>`) and flex parents to their own child elements.
+- Research a method to create spacing between the elements inside `<div id="destinations">` and `<div id="actions">`. 
+- Vertically centering `destinations` and `actions` within the nav bar may pose a challenge. Break down the problem into smaller steps and tackle them one by one. 
 
-On to our Hero section next. Let's do the same breakdown for this that we did for our nav bar:
+> 🧠 Look familiar? This is a widely used design pattern in websites, and it feels intuitive for a reason. Pay attention to common design patterns, and apply this knowledge to enhance user experiences in your own projects.
+
+## Hero
+
+Next, let's examine the components of our hero section:
 
 ![Hero breakdown](./assets/hero-breakdown.png)
 
-> ❓ What's different about how the Hero section lays out its children compared to the nav?
+### Step 2 : Center items in the hero
 
-Use flexbox to make your hero section look like the completed example above. Just like you did with the nav bar, you'll need to nest a flexbox inside of another flexbox to get this to look correct. 
+- Apply flexbox properties to recreate the hero layout shown in the example above. 
+- Similar to what you did for the nav bar, you'll need to nest one flexbox inside another to achieve the desired result. 
+
+> ❓ What's different about how the Hero section positions its children compared to the nav?
 
 ## Sub Nav
 
-Here's the sub-nav!
+Now for the sub-nav:
 
 ![Sub-nav breakdown](./assets/sub-nav-breakdown.png)
 
-Use flexbox to get your sub-nav looking like the completed example above.
+### Step 3 : Dividing the sub nav
+
+- Use flexbox to position content on opposite sides of the sub nav. 
 
 ## Main Content
 
-Time for the main event! Everything has led up to this, and it's time to build the cards for the main content!
+Time for the main event! Everything has led up to this, and it's time to style the cards for the main content!
 
 ![Main breakdown](./assets/main-breakdown.png)
 
-The main content is a scrolling list of cards for each piece of content, each with an image and a footer showing some details about a piece of content.
+The main section is a scrolling list of cards, each with an image and a footer providing details about the piece of content.
 
 ![Card breakdown](./assets/card-breakdown.png)
 
-Use flexbox to get your main content looking like the completed example above. Here are some hints for you to help along the way:
 
-- The `<main>` tag will be a Flexbox that lays out its children in a row, and when they no longer fit on the row, the children will wrap around to the next row. You'll need to consult the [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) to help with this.
-- Note that the cards are vertically aligned to the center within the `<main>` element.
-- Don't forget to turn the `<div class="card-footer">` element into a Flexbox that lays out its children in a row. Make its two children move to the edges of the container.
-- You'll need to create a gap between the different `<article class="card">` elements (the children of the `<main>` element).
+### Step 4 : Create card layout
 
-## Wrap up
+Apply flexbox properties to recreate the card layout shown in the example above. 
 
-Your site should be complete, and your finished product should look something like this:
+Here are some hints to guide you:
+
+- Make the `<main>` element a flex container that arranges its children in a row. When the children don't fit on one row, they should wrap to the next row.
+- Ensure that the cards are vertically centered within the `<main>` element.
+- Transform the `<div class="card-footer">` element into a flex container that arranges its children in a row. Position its two children at the edges of the container.
+- Create spacing between the `<article class="card">` elements, which are children of the `<main>` element.
+
+## Check your work
+
+With your site complete, your finished product should look something like this:
 
 ![Finished app](./assets/finished-layout.png)
 
-Congrats, you did it!!
+🎉 Congrats, you did it!

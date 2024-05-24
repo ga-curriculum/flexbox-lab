@@ -6,9 +6,6 @@ In this hands-on lab, students will have the opportunity to apply flexbox proper
 
 ![Layout](../assets/finished-layout.png)
 
-## Time to complete
-
-Estimated time to complete core lab exercise: **90 min**
 
 ## Content
 

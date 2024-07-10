@@ -170,7 +170,7 @@ p {
 }
 
 section {
-  height: 400px;
+  height: 460px;
   background-color: black;
   color: white;
   padding: 24px 72px;

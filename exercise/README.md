@@ -1,4 +1,7 @@
-# ![Flexbox Lab - Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">Flexbox Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 ## Introduction
 

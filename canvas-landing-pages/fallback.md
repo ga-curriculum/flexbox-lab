@@ -14,3 +14,7 @@ In this hands-on lab, students will have the opportunity to apply Flexbox proper
 
 - [Setup](../setup/README.md)
 - [Exercise](../exercise/README.md)
+
+## Deployed sites
+
+🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)

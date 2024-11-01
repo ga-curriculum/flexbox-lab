@@ -32,7 +32,7 @@ Estimated time to complete core lab exercise: **90 min**
 
 ### Deployed sites
 
-🌐 [Live site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)
+🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)
 
 🐙 [Repository](https://git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)
 

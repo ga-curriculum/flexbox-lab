@@ -28,15 +28,13 @@ Estimated time to complete core lab exercise: **90 min**
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-flexbox-lab-solution)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)
 
 ### Deployed sites
 
 🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)
 
-🐙 [Repository](https://git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)
-
-### Github Pages Sites
+### Course landing pages
 
 - [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab/canvas-landing-pages/fallback)
 - [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab/canvas-landing-pages/seb)

@@ -17,4 +17,4 @@ In this hands-on lab, students will have the opportunity to apply Flexbox proper
 
 ## Deployed sites
 
-🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)
+🌐 [Live Example](https://ga-curriculum.github.io/flexbox-lab-solution/)

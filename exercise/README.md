@@ -34,7 +34,7 @@ Let's begin by evaluating the final design. The end result should resemble the r
 
 Here's a link to this page so you can explore it on your own:
 
-🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/flexbox-lab-solution/)
+🌐 [Live Example](https://ga-curriculum.github.io/flexbox-lab-solution/)
 
 ## Approach
 
